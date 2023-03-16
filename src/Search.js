@@ -1,5 +1,5 @@
+import "./Search.css";
 import React from "react";
-import "./search.css";
 
 export default function Search() {
   return (
@@ -14,9 +14,6 @@ export default function Search() {
         />
         <button type="submit" className="search" value="Search">
           Search
-        </button>
-        <button type="submit" className="current-location" value="search">
-          Current location
         </button>
       </form>
 

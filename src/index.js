@@ -1,19 +1,26 @@
 import React from "react";
-import CSS from "./index.css";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 import App from "./App";
 import Search from "./Search";
 import Temperature from "./Temperature";
 import WeatherConditions from "./WeatherConditions";
-import "bootstrap/dist/css/bootstrap.css";
+import Footer from "./Footer";
+import reportWebVitals from "./reportWebVitals";
+import axios from "axios";
 
-const rootElement = document.getElementById("root");
-const root = createRoot(rootElement);
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <StrictMode>
+  <React.StrictMode>
     <App />
     <Search />
     <Temperature />
     <WeatherConditions />
-  </StrictMode>
+    <Footer />
+  </React.StrictMode>
 );
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();

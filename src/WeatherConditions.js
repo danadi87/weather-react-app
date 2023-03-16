@@ -1,5 +1,5 @@
+import "./weather-conditions.css";
 import React from "react";
-import CSS from "./weather-conditions.css";
 
 export default function WeatherConditions() {
   return (
