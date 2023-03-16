@@ -1,5 +1,4 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
 import CSS from "./index.css";
 import App from "./App";
 import Search from "./Search";
