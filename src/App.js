@@ -9,6 +9,7 @@ export default function App() {
         src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
         alt="Clear"
         id="icon"
+        rel="noreferrer"
       />
       <span className="description">
         <strong>Cloudy</strong>
