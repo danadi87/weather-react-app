@@ -1,4 +1,5 @@
 import React from "react";
+import "./footer.css";
 
 export default function Footer() {
   return (
@@ -10,7 +11,11 @@ export default function Footer() {
       >
         Mirela Dragulescu
       </a>{" "}
-      and is open-sourced on Github.
+      and is{" "}
+      <a href="https://github.com/danadi87/weather-react-app" target="_blank">
+        open-sourced
+      </a>{" "}
+      on Github.
     </p>
   );
 }
