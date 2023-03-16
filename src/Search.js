@@ -1,5 +1,5 @@
+import React from "react";
 import "./search.css";
-import "react-bootstrap";
 
 export default function Search() {
   return (

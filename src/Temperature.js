@@ -1,3 +1,4 @@
+import React from "react";
 import CSS from "./temperature.css";
 
 export default function Temperature() {

@@ -5,6 +5,7 @@ import App from "./App";
 import Search from "./Search";
 import Temperature from "./Temperature";
 import WeatherConditions from "./WeatherConditions";
+import "bootstrap/dist/css/bootstrap.css";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
