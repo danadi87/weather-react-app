@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function Search(props) {
   return (
@@ -14,18 +15,7 @@ export default function Search(props) {
           </h3>
 
           <div className="temp">
-            <span className="temperature" id="temperature">
-              <strong>{props.data.temperature}</strong>
-            </span>
-            <span className="units">
-              <a href="#" id="celsius-link">
-                ºC
-              </a>{" "}
-              |
-              <a href="#" id="fahrenheit-link">
-                ºF
-              </a>
-            </span>
+            <WeatherTemperature celsius={props.data.temperature} />
           </div>
         </div>
         <div className="col-md-6">
