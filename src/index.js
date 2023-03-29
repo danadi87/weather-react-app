@@ -8,10 +8,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <div className="data">
-      <App />
-      <WeatherConditions defaultCity="Barcelona" />
+  <React.StrictMode className="page">
+    <div className="container">
+      <div className="data">
+        <App />
+        <WeatherConditions defaultCity="Barcelona" />
+      </div>
     </div>
     <div className="footer">
       <footer>
@@ -33,6 +35,8 @@ root.render(
         </a>
       </footer>
     </div>
+
+
   </React.StrictMode>
 );
 reportWebVitals();

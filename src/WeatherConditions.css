@@ -48,16 +48,19 @@
 }
 .col-md-6 {
   flex: 0 0 auto;
-  width: 50%;
+  width: 100%;
 }
-ul {
-  list-style: none;
-  line-height: 40px;
-}
+
 p {
   text-transform: capitalize;
 }
 p.description {
+  margin-top: 75px;
+  margin-bottom: 75px;
   font-size: 30px;
   text-align: left;
+  color: chocolate;
+}
+.card {
+  align-items: center;
 }

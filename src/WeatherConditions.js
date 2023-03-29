@@ -40,15 +40,22 @@ export default function Weather(props) {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-6">
-            <img
-              src={weatherData.iconUrl}
-              alt={weatherData.description}
-              id="icon"
-            />
+          <div className="col-md-6">
+            <div className="card">
+              <img
+                src={weatherData.iconUrl}
+                alt={weatherData.description}
+                id="icon"
+                width="41%"
+              />
+            </div>
           </div>
-          <div className="col-6">
-            <p className="description">{weatherData.description}</p>
+          <div className="col-md-6">
+            <div className="card">
+              <p className="description" width="130%">
+                {weatherData.description}
+              </p>
+            </div>
           </div>
         </div>
         <div className="row">
@@ -63,7 +70,6 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </form>
-            <Search data={weatherData} />
           </div>
           <div className="col-3 p-0">
             <button
@@ -75,6 +81,7 @@ export default function Weather(props) {
             </button>
           </div>
         </div>
+        <Search data={weatherData} />
       </div>
     );
   } else {
