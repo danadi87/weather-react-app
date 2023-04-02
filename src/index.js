@@ -35,8 +35,6 @@ root.render(
         </a>
       </footer>
     </div>
-
-
   </React.StrictMode>
 );
 reportWebVitals();

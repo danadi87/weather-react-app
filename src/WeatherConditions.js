@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import axios from "axios";
 import React, { useState } from "react";
 import Search from "./Search";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -82,6 +83,7 @@ export default function Weather(props) {
           </div>
         </div>
         <Search data={weatherData} />
+        <WeatherForecast data={weatherData}/>
       </div>
     );
   } else {
