@@ -1,6 +1,6 @@
 .card-forecast {
-  background-color: whitesmoke !important;
+  background-color: rgba(189, 184, 184, 0.925) !important;
   box-shadow: 5px 5px blue;
-  width: auto;
   size: 50px;
+  width: auto;
 }
