@@ -11,7 +11,7 @@
   font-family: "Permanent Marker", cursive;
 }
 .card {
-  background-color: whitesmoke, (transparent 0%) !important;
+  background-color: rgba(189, 184, 184, 0.925) !important;
   box-shadow: 5px 5px blue;
 }
 h2 {
